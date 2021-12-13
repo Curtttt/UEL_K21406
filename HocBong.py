@@ -46,7 +46,6 @@ for i in range(len(sv)):
 while len(dathb) != m:
     x = hb.index(max(hb))
     dathb.append(x)
-    hb.pop(x)
     sv.pop(x)
 
 print("Sinh viên đạt được học bổng: ", end="")
