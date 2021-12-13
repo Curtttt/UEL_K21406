@@ -32,17 +32,15 @@ def diemxethb(a, b, c):
 
 n = int(input("Số sinh viên: "))
 m = int(input("Số sinh viên đạt được học bổng: "))
-print("*" * 62)
 for i in range(n):
+    print("*" * 62)
     print(i+1, end=".")
     nhapten()
     nhapdiem()
     nhapdrl()
-    print("*" * 62)
-
-for i in range(len(sv)):
+    print("Điểm xét học bổng:",  diemxethb(tc, diem[i], drl[i]))
     hb.append( diemxethb(tc, diem[i], drl[i]) )
-
+    
 while len(dathb) != m:
     x = hb.index(max(hb))
     dathb.append(x)
