@@ -52,9 +52,6 @@ print("Sinh viên đạt được học bổng: ", end="")
 for i in range(len(dathb)):
     print(sv[i] + "(" + str(dathb[i]) + ")", end=" ")
 
-print(hb)
-print(diem)
-
 
 
 
