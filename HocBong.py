@@ -1,6 +1,6 @@
 sv, drl, diem, hb , dathb = [], [], [], [], []
-mon = ["Toán cao cấp", "Giới thiệu ngành", "Tư duy lập trình"] #, "Kinh tế học vi mô", "Lý luận nhà nước và pháp luật", "Tư tưởng Hồ Chí Minh", "Xã hội học", "Quan hệ quốc tế"]
-tc = [3, 2, 3] #, 3, 3, 2, 2, 2]
+mon = ["Toán cao cấp", "Giới thiệu ngành", "Tư duy lập trình", "Kinh tế học vi mô", "Lý luận nhà nước và pháp luật", "Tư tưởng Hồ Chí Minh", "Xã hội học", "Quan hệ quốc tế"]
+tc = [3, 2, 3, 3, 3, 2, 2, 2]
 
 def nhapten():
     tam = input("Tên sinh viên: ")
