@@ -16,6 +16,9 @@ def tram(a):
 
 def chuc(a):
     match a:
+        case "0":
+            if n[2]=="0": return " "
+            else: return "and" + so(a)
         case "1":
             match n[2]:
                 case "1": return "and eleven"
@@ -42,4 +45,3 @@ if n[1] == "1":
     print(tram(n[0]) + chuc(n[1]))
 else:
     print(tram(n[0]) + chuc(n[1]) + so(n[2]))
-
