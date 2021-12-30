@@ -37,8 +37,8 @@ def chuc(a):
         case "8": return "eighty "
         case "9": return "ninety "
 
-n = list(input("n= "))
-if n[2] == "1":
+n = list(input("n = "))
+if n[1] == "1":
     print(tram(n[0]) + chuc(n[1]))
 else:
     print(tram(n[0]) + chuc(n[1]) + so(n[2]))
